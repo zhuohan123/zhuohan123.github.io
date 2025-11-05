@@ -88,21 +88,29 @@
 
       <h3 id="about-me">About Me</h3>
 
+<p>I am an AI Research Scientist at Meta, focusing on inference. Previously, I was a Member of Technical Staff at OpenAI, where I led infra and inference work for <a href="https://openai.com/index/introducing-gpt-oss/">gpt-oss</a> and built training and inference systems for <a href="https://openai.com/index/learning-to-reason-with-llms/">reasoning models</a>.</p>
+
 <p>I got my PhD in Computer Science from UC Berkeley, advised by <a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a>. Before that, I received my B.S. in Computer Science from Peking University, advised by <a href="http://www.liweiwang-pku.com/">Liwei Wang</a> and <a href="https://dihe-pku.github.io/">Di He</a>.</p>
 
-<p>My interest lies in the intersection of machine learning and distributed systems. I use insights from different domains to improve the performance (accuracy, efficiency, and interpretability) of current machine learning models.</p>
+<p>I co-created and co-lead the development of <a href="https://github.com/vllm-project/vllm">vLLM</a>, the most popular open-source LLM serving engine. My work on vLLM has been recognized with <a href="https://a16z.com/supporting-the-open-source-ai-community/">a16z Open Source AI Grant</a> and <a href="https://www.sequoiacap.com/article/building-the-future-meet-the-2024-sequoia-open-source-fellows/">Sequoia Open Source Fellowship</a>. Join our <a href="https://slack.vllm.ai">vLLM Slack</a> to get connected and start building together!</p>
 
-<p>I co-created and co-lead the development of <a href="https://github.com/vllm-project/vllm">vLLM</a>, an open-source LLM serving engine focusing on high throughput that got widely adopted across the industry.</p>
+<!-- My interest lies in the intersection of machine learning and distributed systems. I use insights from different domains to improve the performance (accuracy, efficiency, and interpretability) of current machine learning models. -->
 
 <h3 id="projects">Projects</h3>
 
 <div style="padding-right: 10px;padding-left: 20px;">
 <a href="https://github.com/vllm-project/vllm" style="font-weight: 500">vLLM</a>: A high-throughput and memory-efficient serving engine for large language models, accelerated with <em>PagedAttention</em>.
 <div style="line-height:50%;"><br /></div>
+<a href="https://openai.com/index/introducing-gpt-oss/" style="font-weight: 500">gpt-oss</a>: OpenAI's flagship open-weight reasoning models.
+<div style="line-height:50%;"><br /></div>
+<a href="https://openai.com/index/learning-to-reason-with-llms/" style="font-weight: 500">OpenAI o1</a>: The world's first reasoning model.
+<div style="line-height:50%;"><br /></div>
+<a href="https://lmarena.ai/" style="font-weight: 500">Chatbot Arena</a>: The leading crowdsourced LLM benchmark.
+<div style="line-height:50%;"><br /></div>
 <a href="https://lmsys.org/blog/2023-03-30-vicuna/" style="font-weight: 500">Vicuna</a>: An open-source chatbot impressing GPT-4 with 90% ChatGPT quality.
 <div style="line-height:50%;"><br /></div>
-<a href="https://arxiv.org/pdf/2302.11665.pdf" style="font-weight: 500">AlpaServe</a>: Use model parallelism to accelerate deep learning serving, even when models fit a single GPU.
-<div style="line-height:50%;"><br /></div>
+<!-- <a href="https://arxiv.org/pdf/2302.11665.pdf" style="font-weight: 500">AlpaServe</a>: Use model parallelism to accelerate deep learning serving, even when models fit a single GPU.
+<div style="line-height:50%;"><br></div> -->
 <a href="https://github.com/alpa-projects/alpa" style="font-weight: 500">Alpa</a>: Automate model parallel training with just a few lines of code.
 </div>
 <div style="line-height:100%;"><br /></div>
@@ -125,6 +133,14 @@
 
 <div style="padding-right: 10px;padding-left: 20px;">
 
+  <p><strong>Meta</strong> <br />
+  AI Research Scientist <br />
+  August 2025 - Present</p>
+
+  <p><strong>OpenAI</strong> <br />
+  Member of Technical Staff <br />
+  June 2024 - August 2025</p>
+
   <p><strong>Google Brain / Google Deepmind</strong> <br />
   Research Intern <br />
   <em>Hosts:</em> <a href="https://scholar.google.com/citations?user=uEtBQScAAAAJ&amp;hl=en">Yanping Huang</a>, <a href="https://scholar.google.com/citations?user=KzRHnx0AAAAJ&amp;hl=en">Yuanzhong Xu</a>, and <a href="https://scholar.google.com/citations?user=EemUE4gAAAAJ&amp;hl=en">Zhifeng Chen</a> <br />
@@ -145,6 +161,126 @@
 
 <div class="publications">
 <ol class="bibliography">
+
+
+
+<li>
+<div class="pub-row">
+  <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    
+    
+  </div> -->
+  <div class="col-sm-12" style="position: relative;padding-right: 10px;padding-left: 20px;">
+      <div class="title">gpt-oss-120b &amp; gpt-oss-20b model card</div>
+      <div class="author">OpenAI</div>
+      <div class="periodical"><em><strong>Technical Report, 2025</strong></em>
+      
+
+      </div>
+    <div class="links">
+      
+      <a href="https://arxiv.org/pdf/2508.10925">Paper</a>
+
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<div style="line-height:50%;">
+    <br />
+</div>
+
+
+
+
+<li>
+<div class="pub-row">
+  <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    
+    
+  </div> -->
+  <div class="col-sm-12" style="position: relative;padding-right: 10px;padding-left: 20px;">
+      <div class="title">Jenga: Effective Memory Management for Serving LLM with Heterogeneity</div>
+      <div class="author">Chen Zhang, Kuntai Du, Shu Liu, Woosuk Kwon, Xiangxi Mo, Yufeng Wang, Xiaoxuan Liu, Kaichao You, <strong>Zhuohan Li</strong>, Mingsheng Long, Jidong Zhai, Joseph Gonzalez, Ion Stoica</div>
+      <div class="periodical"><em><strong>SOSP 2025</strong></em>
+      
+
+      </div>
+    <div class="links">
+      
+      <a href="https://arxiv.org/pdf/2503.18292">Paper</a>
+
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<div style="line-height:50%;">
+    <br />
+</div>
+
+
+
+
+<li>
+<div class="pub-row">
+  <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    
+    
+  </div> -->
+  <div class="col-sm-12" style="position: relative;padding-right: 10px;padding-left: 20px;">
+      <div class="title">OpenAI o1 System Card</div>
+      <div class="author">OpenAI</div>
+      <div class="periodical"><em><strong>Technical Report, 2024</strong></em>
+      
+
+      </div>
+    <div class="links">
+      
+      <a href="https://arxiv.org/pdf/2412.16720">Paper</a>
+
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<div style="line-height:50%;">
+    <br />
+</div>
+
+
+
+
+<li>
+<div class="pub-row">
+  <!-- <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    
+    
+  </div> -->
+  <div class="col-sm-12" style="position: relative;padding-right: 10px;padding-left: 20px;">
+      <div class="title">Optimizing speculative decoding for serving large language models using goodput</div>
+      <div class="author">Xiaoxuan Liu, Cade Daniel, Langxiang Hu, Woosuk Kwon, <strong>Zhuohan Li</strong>, Xiangxi Mo, Alvin Cheung, Zhijie Deng, Ion Stoica, Hao Zhang</div>
+      <div class="periodical"><em><strong>Preprint, 2024</strong></em>
+      
+
+      </div>
+    <div class="links">
+      
+      <a href="https://arxiv.org/pdf/2406.14066">Paper</a>
+
+      
+    </div>
+  </div>
+</div>
+</li>
+
+<div style="line-height:50%;">
+    <br />
+</div>
+
 
 
 
